@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VeriBot | Discord Verified Bot</title>
+    <meta
+      name="description"
+      content="VeriBot is a premium Discord verification bot that automates member checks, role assignment, anti-raid protection, and community trust."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">V</span>
+          <span>VeriBot</span>
+        </div>
+
+        <nav class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <a
+          class="nav-button"
+          href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&permissions=8&scope=bot%20applications.commands"
+          target="_blank"
+          rel="noreferrer"
+          >Add to Discord</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="badge">Trusted verification for growing communities</span>
+            <h1>Secure your Discord server with smart verification.</h1>
+            <p>
+              VeriBot helps you verify new members, assign roles automatically,
+              stop spam accounts, and create a safer, more professional community.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="primary-button"
+                href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&permissions=8&scope=bot%20applications.commands"
+                target="_blank"
+                rel="noreferrer"
+                >Add to Discord</a
+              >
+              <a class="secondary-button" href="#features">Explore Features</a>
+            </div>
+
+            <ul class="stats">
+              <li>
+                <strong>50K+</strong>
+                <span>Verified users</span>
+              </li>
+              <li>
+                <strong>2.3s</strong>
+                <span>Avg. check time</span>
+              </li>
+              <li>
+                <strong>99.9%</strong>
+                <span>Uptime</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-window">
+              <div class="window-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+
+              <div class="panel-content">
+                <div class="verification-card">
+                  <div class="mini-label">Live Verification</div>
+                  <h3>Welcome to @GuildHub</h3>
+                  <div class="progress">
+                    <span class="progress-bar"></span>
+                  </div>
+                  <div class="verification-row">
+                    <div>
+                      <small>Member</small>
+                      <strong>Verified</strong>
+                    </div>
+                    <span class="check">✓</span>
+                  </div>
+                </div>
+
+                <div class="chip-row">
+                  <span>Auto Role</span>
+                  <span>Captcha</span>
+                  <span>Anti-Raid</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="kicker">Features</span>
+            <h2>Everything your server needs to stay safe and organized.</h2>
+          </div>
+
+          <div class="card-grid">
+            <article class="feature-card">
+              <div class="icon">🔒</div>
+              <h3>Secure Verification</h3>
+              <p>Require members to complete a verified check before they can access channels.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">⚡</div>
+              <h3>Instant Role Assignment</h3>
+              <p>Automatically grant roles after approval to speed up onboarding and reduce manual work.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">🛡️</div>
+              <h3>Anti-Raid Protection</h3>
+              <p>Monitor abnormal join patterns and block suspicious activity before it affects the server.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">📈</div>
+              <h3>Analytics Dashboard</h3>
+              <p>Track verification rate, successful approvals, and user activity with clear insights.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">🎯</div>
+              <h3>Custom Rules</h3>
+              <p>Set role gates, custom messages, and welcome flows tailored to your community needs.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">💬</div>
+              <h3>Community Friendly</h3>
+              <p>Design a clean onboarding experience for gaming, education, business, or social communities.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section alt-section">
+        <div class="container">
+          <div class="section-heading narrow">
+            <span class="kicker">How it works</span>
+            <h2>Simple setup, powerful protection.</h2>
+          </div>
+
+          <div class="steps">
+            <div class="step">
+              <span>01</span>
+              <h3>Invite the Bot</h3>
+              <p>Add VeriBot to your Discord server and grant the required permissions.</p>
+            </div>
+
+            <div class="step">
+              <span>02</span>
+              <h3>Customize Rules</h3>
+              <p>Set your verification requirement, welcome message, and auto-role logic.</p>
+            </div>
+
+            <div class="step">
+              <span>03</span>
+              <h3>Launch Protection</h3>
+              <p>Start protecting your server and let new members verify automatically.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="kicker">Pricing</span>
+            <h2>Flexible plans for every community size.</h2>
+          </div>
+
+          <div class="pricing-grid">
+            <div class="price-card">
+              <p class="plan">Starter</p>
+              <h3>$4<span>/mo</span></h3>
+              <ul>
+                <li>Basic verification</li>
+                <li>Auto role setup</li>
+                <li>1 server</li>
+              </ul>
+              <a
+                href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&permissions=8&scope=bot%20applications.commands"
+                class="secondary-button full"
+                target="_blank"
+                rel="noreferrer"
+                >Get Started</a
+              >
+            </div>
+
+            <div class="price-card featured">
+              <p class="plan">Pro</p>
+              <h3>$9<span>/mo</span></h3>
+              <ul>
+                <li>Everything in Starter</li>
+                <li>Advanced anti-raid</li>
+                <li>Custom automations</li>
+                <li>Priority support</li>
+              </ul>
+              <a
+                href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&permissions=8&scope=bot%20applications.commands"
+                class="primary-button full"
+                target="_blank"
+                rel="noreferrer"
+                >Best Value</a
+              >
+            </div>
+
+            <div class="price-card">
+              <p class="plan">Enterprise</p>
+              <h3>$19<span>/mo</span></h3>
+              <ul>
+                <li>Multi-server access</li>
+                <li>Custom dashboards</li>
+                <li>Premium support</li>
+              </ul>
+              <a
+                href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&permissions=8&scope=bot%20applications.commands"
+                class="secondary-button full"
+                target="_blank"
+                rel="noreferrer"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section alt-section">
+        <div class="container faq-wrap">
+          <div class="section-heading narrow left">
+            <span class="kicker">FAQ</span>
+            <h2>Questions people ask before they verify.</h2>
+          </div>
+
+          <div class="faq-list">
+            <details open>
+              <summary>Does it work with large servers?</summary>
+              <p>Yes. VeriBot is built to handle high-volume joins and can scale with your moderation workflow.</p>
+            </details>
+
+            <details>
+              <summary>Can I add custom welcome channels?</summary>
+              <p>Absolutely. You can configure messages, welcome channels, and automatically assigned roles.</p>
+            </details>
+
+            <details>
+              <summary>Is there a free trial?</summary>
+              <p>Yes. You can try the core verification features before upgrading to Pro or Enterprise.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="invite" class="footer">
+      <div class="container footer-box">
+        <div>
+          <span class="kicker">Ready to protect your server?</span>
+          <h3>Bring trust, security, and structure to your community.</h3>
+        </div>
+        <a
+          href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&permissions=8&scope=bot%20applications.commands"
+          class="primary-button"
+          target="_blank"
+          rel="noreferrer"
+          >Invite VeriBot</a
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
